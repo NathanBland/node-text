@@ -1,0 +1,31 @@
+{
+  "name": "node-text",
+  "version": "1.0.0",
+  "description": "Node text application for sending alerts to members",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NathanBland/node-text.git"
+  },
+  "author": "Nathan Bland",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NathanBland/node-text/issues"
+  },
+  "homepage": "https://github.com/NathanBland/node-text",
+  "dependencies": {
+    "body-parser": "^1.10.0",
+    "connect-ensure-login": "^0.1.1",
+    "cookie-parser": "^1.3.3",
+    "express": "^4.10.6",
+    "express-session": "^1.9.3",
+    "multer": "^0.1.7",
+    "nunjucks": "^1.1.0",
+    "passport": "^0.2.1",
+    "passport-local": "^1.0.0"
+  }
+}
