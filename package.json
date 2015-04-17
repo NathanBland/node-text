@@ -28,4 +28,5 @@
     "passport": "^0.2.1",
     "passport-local": "^1.0.0"
   }
+  "homepage": "https://github.com/NathanBland/node-text"
 }
